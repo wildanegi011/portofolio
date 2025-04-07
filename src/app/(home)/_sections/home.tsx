@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { FaFilePdf, FaGitlab, FaLinkedin } from "react-icons/fa";
+import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 const HomeSection = () => {
@@ -52,13 +52,10 @@ const HomeSection = () => {
 
         <div className="flex items-center justify-start">
           <div className="flex gap-x-2">
-            <Link
-              href="https://gitlab.com/users/wildan011/projects"
-              target="_blank"
-            >
+            <Link href="https://github.com/wildanegi011" target="_blank">
               <Button className="text-md font-semibold">
-                <FaGitlab color="rgb(60, 207, 145)" />
-                Gitlab
+                <FaGithub color="rgb(60, 207, 145)" />
+                Github
               </Button>
             </Link>
             <Link href="https://www.linkedin.com/in/wildan011" target="_blank">
